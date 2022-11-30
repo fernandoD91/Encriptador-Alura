@@ -1,0 +1,82 @@
+:root{
+    --dark-blue: #0A3871;
+    --gray: #495057;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+body{
+    background-color: #F3F5FC;
+}
+main{
+    display: flex;
+}
+/* ----HEADER---- */
+header{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/* ------FIN Header------- */
+
+/* ---- SECTION INPUT ENCRIPT ----*/
+.input-section{
+    margin-left: 5%;
+    margin-right: 2rem;
+}
+.input-div{
+    height: 60vh;
+    width: 50vw;
+    /* display: none; */
+}
+.input-span-text{
+    color: #0A3871;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: bolder;
+}
+.input-textarea{
+    height: 60vh;
+    width: 45vw;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+    color: #0A3871;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    display: none;
+}
+.input-span{
+    color: var(--gray);
+    font-size: 0.8rem;
+}
+.img-advertencia{
+    margin-right: 2px;
+    vertical-align: text-top;
+}
+.input-botones{
+    margin-top: 1rem;
+}
+.input-botonStyle{
+    border-radius: 2rem;
+    height: 3rem;
+    width: 20vw;
+    border-color: var(--dark-blue);
+    border-width: 1px;
+    margin-left: 1rem;
+}
+.encriptar{
+    background-color: var(--dark-blue);
+    color: white;
+}
+.desencriptar{
+    background-color: #D8DFE8;
+    color: var(--dark-blue)
+}
+/* ---------FIN SECTION INPUT ENCRIPT------------ */
+
