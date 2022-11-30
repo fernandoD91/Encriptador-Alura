@@ -1,6 +1,7 @@
 :root{
     --dark-blue: #0A3871;
     --gray: #495057;
+    --lightBlue: #226bc5;
 }
 *{
     box-sizing: border-box;
@@ -70,14 +71,21 @@ header{
     border-width: 1px;
     margin-left: 1rem;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    transition-duration: 0.4s;
 }
 .encriptar{
     background-color: var(--dark-blue);
     color: white;
 }
+.encriptar:hover{
+    background: var(--lightBlue);
+}
 .desencriptar{
     background-color: #D8DFE8;
     color: var(--dark-blue)
+}
+.desencriptar:hover{
+    background: var(--lightBlue);
 }
 /* ---------FIN SECTION INPUT ENCRIPT------------ */
 
@@ -94,7 +102,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* display: none; */
+    display: none;
 }
 .output-img{
     width: 15rem;
@@ -109,7 +117,7 @@ header{
     color: var(--gray);
 }
 .output-div-textarea{
-    display: none;
+    /* display: none; */
     height: 73vh;
     width: 35vw;
     background-color: #ffffff;
@@ -132,4 +140,7 @@ header{
 #button-copiar{
     display: block;
     margin: 0 auto;
+}
+#button-copiar:hover{
+    background: var(--lightBlue);
 }
