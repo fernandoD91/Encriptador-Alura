@@ -14,13 +14,13 @@
 
 <body>
     <header>
-        <a href="#"><img src="img/Vector.png" alt="Logo de alura de la inicial A">
+        <a href="index.html"><img src="img/Vector.png" alt="Logo de alura de la inicial A">
         </a>
     </header>
     <main>
         <!-- SECTION INPUT ENCRIPT -->
         <section class="input-section">
-            <div class="input-div">
+            <div class="input-div" onclick="mostrarTextArea()">
                 <span class="input-span-text">Ingrese texto aqui...</span>
             </div>
             <textarea class="input-textarea" id=""></textarea>
@@ -28,10 +28,10 @@
             <span class="input-span"><img class="img-advertencia" src="img/advertencia.png" alt="Icono de advertencia" width="16px" sizes="" srcset=""> Solo letras minúsculas y
                 sin acentos</span>
             <div class="input-botones">
-                <button class="input-botonStyle encriptar">
+                <button class="input-botonStyle encriptar" onclick="btnEncrypt()">
                     Encriptar!
                 </button>
-                <button class="input-botonStyle desencriptar">
+                <button class="input-botonStyle desencriptar" onclick="btnDesencrypt()">
                     Desencriptar!
                 </button>
             </div>
@@ -54,6 +54,7 @@
             </div>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
