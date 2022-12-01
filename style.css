@@ -42,13 +42,13 @@ header{
 }
 .input-textarea{
     height: 60vh;
-    width: 45vw;
+    width: 50vw;
     background-color: transparent;
     border: none;
     outline: none;
     resize: none;
     color: #0A3871;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     line-height: 2rem;
     display: none;
 }
@@ -102,7 +102,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    display: none;
+    /* display: none; */
 }
 .output-img{
     width: 15rem;
@@ -117,7 +117,7 @@ header{
     color: var(--gray);
 }
 .output-div-textarea{
-    /* display: none; */
+    display: none;
     height: 73vh;
     width: 35vw;
     background-color: #ffffff;
