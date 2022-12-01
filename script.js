@@ -58,3 +58,11 @@ function btnDesencrypt() {
     outputDivTextarea.style.display = "block";
     outputTextarea.value = textEncrypt;
 }
+
+
+function copy(){
+    let texto = document.querySelector(".output-textarea");
+    texto.select();
+    texto.setSelectionRange(0,99999);
+    document.execCommand('copy');
+}
